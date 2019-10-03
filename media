@@ -1,0 +1,17 @@
+'''
+Programa que calcula a média
+By: Ricardo Rodrigues Soares
+Phone: +55 11 95593 9797
+E-mail: rcddigital.it@gmail.com / ri.rodriguesoares@gmail.com
+'''
+
+nome = input("Digite seu nome: ")
+print('***Digite as notas separadas por ponto***')
+n1 = float(input('Prova 1: '))
+n2 = float(input('Prova 2: '))
+media = (n1+n2)/2
+print(f'{nome}, Sua Média é:{media} ')
+if media <= 6:
+	print("Você foi Reprovado")
+if media >= 7:
+	print("Você foi Aprovadoo")
